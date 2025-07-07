@@ -1,30 +1,31 @@
-/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
+
   --first-color: hsl(15, 60%, 52%);
   --first-color-alt: hsl(15, 68%, 40%);
-  --first-gradient: linear-gradient(90deg,
-                    hsl(15, 68%, 42%) 0%,
-                    hsl(20, 68%, 80%) 100%);
-  --second-gradient: linear-gradient(90deg,
-                    hsl(20, 72%, 57%) 0%,
-                    hsl(20, 78%, 80%) 100%);
-  --third-gradient: linear-gradient(90deg,
-                    hsl(15, 70%, 40%) 0%,
-                    hsl(20, 62%, 60%) 100%);
+  --first-gradient: linear-gradient(
+    90deg,
+    hsl(15, 68%, 42%) 0%,
+    hsl(20, 68%, 80%) 100%
+  );
+  --second-gradient: linear-gradient(
+    90deg,
+    hsl(20, 72%, 57%) 0%,
+    hsl(20, 78%, 80%) 100%
+  );
+  --third-gradient: linear-gradient(
+    90deg,
+    hsl(15, 70%, 40%) 0%,
+    hsl(20, 62%, 60%) 100%
+  );
   --title-color: hsl(0, 0%, 12%);
   --text-color: hsl(0, 0%, 50%);
   --white-color: #fff;
   --body-color: hsl(0, 0%, 96%);
   --container-color: hsl(0, 0%, 100%);
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --second-font: "Montserrat", sans-serif;
   --bigger-font-size: 2.25rem;
@@ -32,21 +33,18 @@
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
 
-  /*========== Font weight ==========*/
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
 @media screen and (min-width: 1152px) {
   :root {
     --bigger-font-size: 4rem;
@@ -56,8 +54,8 @@
     --h3-font-size: 1.25rem;
     --normal-big-font-size: 1.125rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -82,7 +80,7 @@ body {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: background .4s; /* for dark mode animation */
+  transition: background 0.4s; /* for Dark Mode Animation */
 }
 
 input,
@@ -91,7 +89,10 @@ button {
   outline: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--title-color);
   font-family: var(--second-font);
   font-weight: var(--font-semi-bold);
@@ -112,15 +113,12 @@ img {
 
 /*=============== THEME ===============*/
 
-
-/*========== Variables Dark theme ==========*/
-
+/*========== Variables Dark Theme ==========*/
 
 /*========== 
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -144,74 +142,52 @@ img {
 }
 
 .main {
-  overflow: hidden; /* For animation ScrollReveal */
+  overflow: hidden; /* For Animation ScrollReveal */
 }
 
 /*=============== HEADER & NAV ===============*/
 
+/* Navigation for Mobile Devices */
 
-/* Navigation for mobile devices */
+/* Show Menu */
 
+/* Change Background Header */
 
-/* Show menu */
-
-
-/* Change background header */
-
-
-/* Active link */
-
+/* Active Link */
 
 /*=============== HOME ===============*/
 
-
 /*=============== BUTTON ===============*/
-
 
 /*=============== POPULAR ===============*/
 
-
-/* Swiper class */
-
+/* Swiper Class */
 
 /*=============== CHOOSE ===============*/
 
+/* Rotate Icon */
 
-/* Rotate icon */
+/* Change Color Icon */
 
-
-/* Change color icon */
-
-
-/* Title color change */
-
+/* Title Color Change */
 
 /*=============== FEATURES ===============*/
 
-
 /*=============== PRODUCTS ===============*/
-
 
 /*=============== JOIN ===============*/
 
-
 /*=============== FOOTER ===============*/
-
 
 /*=============== SCROLL BAR ===============*/
 
-
 /*=============== SCROLL UP ===============*/
-
 
 /* Show Scroll Up */
 
-
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/* For Small Devices */
 
+/* For Medium Devices */
 
-/* For medium devices */
-
-
-/* For large devices */
+/* For Large Devices */
