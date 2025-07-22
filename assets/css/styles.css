@@ -1118,6 +1118,11 @@ body.dark-theme {
     column-gap: 0.5rem;
   }
 }
+@media screen and (max-width: 365px) {
+  .home__title {
+    font-size: 1.75rem;
+  }
+}
 
 /* For Medium Devices */
 @media screen and (min-width: 576px) {
@@ -1292,7 +1297,7 @@ body.dark-theme {
   }
 
   .home__container {
-    grid-template-columns: 530px 465px;
+    grid-template-columns: 530px 490px;
     justify-content: center;
     padding-top: 3.5rem;
     column-gap: 7.5rem;
